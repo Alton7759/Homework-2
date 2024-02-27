@@ -1,0 +1,30 @@
+My Grocery List
+    0:  "",  "",  "eggs",  0
+    1:  "",  "",  "milk",  0
+
+My roommate's Grocery List
+    0:  "",  "Ruffles",  "potato chips",  0
+    1:  "",  "Frito Lays",  "potato chips",  0
+
+Combined Grocery Lists
+    0:  "",  "",  "eggs",  0
+    1:  "",  "",  "milk",  0
+    2:  "",  "Ruffles",  "potato chips",  0
+    3:  "",  "Frito Lays",  "potato chips",  0
+
+
+Expected results:
+    0:  "",  "",  "eggs",  0
+    1:  "",  "",  "milk",  0
+    2:  "",  "",  "hot dogs",  0
+    3:  "",  "Lakes 'Ole",  "butter",  0
+
+
+Actual results:  
+    0:  "",  "",  "eggs",  0
+    1:  "",  "",  "milk",  0
+    2:  "",  "",  "hot dogs",  0
+    3:  "",  "Lakes 'Ole",  "butter",  0
+
+
+Test results:    PASS
